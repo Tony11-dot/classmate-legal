@@ -16,8 +16,7 @@
       background: #f8fafd;
       text-align: center;
     }
-    img.logo { width: 96px; height: 96px; margin-bottom: 18px; }
-    h1 { font-size: 28px; margin: 0 0 6px; }
+    img.logo { height: 72px; width: auto; margin-bottom: 18px; }
     p.tag { color: #666; margin: 0 0 32px; }
     .links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
     .links a {
@@ -30,18 +29,39 @@
       font-weight: 600;
     }
     .links a:hover { background: #1f4368; }
-    .contact { margin-top: 40px; color: #888; font-size: 14px; }
-    .contact a { color: #2E5C8A; }
+    .site-footer {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 13px;
+      color: #666;
+    }
+    .site-footer .footer-icon { width: 24px; height: 24px; }
+    .site-footer .sep { color: #c4c4c4; }
+    .site-footer a { color: #2E5C8A; text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <img class="logo" src="logo.png" alt="ClassMate logo">
-  <h1>ClassMate</h1>
+  <img class="logo" src="logo.png" alt="ClassMate">
   <p class="tag">Your AI study companion.</p>
   <div class="links">
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms of Use</a>
+    <a href="delete-account.html">Delete Account</a>
   </div>
-  <p class="contact">Questions? <a href="mailto:aboudtony22@gmail.com">aboudtony22@gmail.com</a></p>
+  <footer class="site-footer">
+    <img src="icon.png" alt="" class="footer-icon">
+    <span>Tony Aboud</span>
+    <span class="sep">|</span>
+    <a href="mailto:aboudtony22@gmail.com">aboudtony22@gmail.com</a>
+    <span class="sep">|</span>
+    <a href="tel:+972XXXXXXXXX">+972 XX-XXX-XXXX</a>
+  </footer>
 </body>
 </html>
