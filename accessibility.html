@@ -3,35 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ClassMate — Accessibility Statement</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
-    .brand { text-align: center; margin-bottom: 28px; padding-bottom: 22px; border-bottom: 1px solid #e5e7eb; }
-    .brand img.logo { display: block; margin: 0 auto 16px; max-height: 72px; max-width: 90%; height: auto; width: auto; }
-    .brand a.home { font-size: 13px; color: #2E5C8A; text-decoration: none; }
-    .brand a.home:hover { text-decoration: underline; }
-    .site-footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #e5e7eb; display: flex; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 13px; color: #666; }
-    .site-footer .footer-icon { width: 24px; height: 24px; }
-    .site-footer .sep { color: #c4c4c4; }
-    .site-footer a { color: #2E5C8A; text-decoration: none; }
-    .site-footer a:hover { text-decoration: underline; }
-    h1 { font-size: 28px; margin-bottom: 6px; }
-    h2 { font-size: 18px; margin-top: 32px; }
-    .updated { color: #666; font-size: 14px; margin-bottom: 28px; }
-    p, li { font-size: 15px; }
-    a { color: #0066cc; }
-    [lang="he"] { direction: rtl; text-align: right; }
-    hr { border: 0; border-top: 1px solid #e5e7eb; margin: 40px 0; }
-  </style>
+  <title>ClassMate Accessibility Statement · ClassMate</title>
+  <meta name="description" content="How ClassMate works to be usable by everyone, and how to reach our accessibility contact.">
+  <meta name="theme-color" content="#f5f7fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#080d1e" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="app-icon.png">
+  <link rel="apple-touch-icon" href="app-icon.png">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
-<div class="brand">
-  <img class="logo" src="logo-cm-v2.png" alt="ClassMate">
-  <a class="home" href="index.html">← Home</a>
-</div>
-<h1>ClassMate Accessibility Statement</h1>
-<p class="updated">Last updated: October 2, 2026</p>
-
+<header class="bar">
+  <div class="bar-in">
+    <a class="wordmark" href="index.html" aria-label="ClassMate legal home">
+      <img class="on-light" src="logo-wordmark.png" alt="ClassMate" width="131" height="36">
+      <img class="on-dark" src="logo-wordmark-dark.png" alt="ClassMate" width="131" height="36">
+    </a>
+    <nav aria-label="Legal pages"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="accessibility.html" aria-current="page">Accessibility</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="doc-head">
+    <p class="eyebrow">ClassMate · Legal</p>
+    <h1>ClassMate Accessibility Statement</h1>
+    <p class="stamp">Last updated: October 2, 2026</p>
+  </div>
+  <div class="layout">
+    <aside class="toc" hidden><p>On this page</p></aside>
+    <div>
+      <details class="toc-m" hidden><summary>On this page</summary></details>
+      <article>
 <p>We want every student, parent and teacher to be able to use ClassMate, including people with disabilities. We work to make the App and this website meet the Equal Rights for Persons with Disabilities (Service Accessibility Adjustments) Regulations, 5773-2013, and Israeli Standard IS 5568, which is based on the Web Content Accessibility Guidelines (WCAG) 2.0 at level AA.</p>
 
 <h2>1. What we have done</h2>
@@ -70,10 +70,22 @@
   <h2>רכז הנגישות</h2>
   <p>טוני עבוד — <a href="mailto:support@classmateapp.org">support@classmateapp.org</a>, <a href="tel:+972525488441" dir="ltr">+972 52-548-8441</a>. נא לציין את המסך, את הבעיה ואת המכשיר. אנו משתדלים להשיב תוך 14 יום.</p>
 </div>
-
-<footer class="site-footer">
-  <img src="icon-cm-v2.png" alt="" class="footer-icon">
-  <a href="tel:+972525488441">+972 52-548-8441</a>
+      </article>
+    </div>
+  </div>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <span class="foot-brand"><img src="app-icon.png" alt="" width="28" height="28">ClassMate</span>
+    <a href="https://classmateapp.org/">classmateapp.org</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="accessibility.html">Accessibility</a>
+    <a href="delete-account.html">Delete account</a>
+    <a href="mailto:support@classmateapp.org">support@classmateapp.org</a>
+    <a href="tel:+972525488441" dir="ltr">+972 52-548-8441</a>
+  </div>
 </footer>
+<script src="site.js" defer></script>
 </body>
 </html>

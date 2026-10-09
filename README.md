@@ -1,15 +1,19 @@
 # ClassMate — Legal
 
-Public hosting of the privacy policy + terms of use for the ClassMate
-iOS / Android app (private repo: `Tony11-dot/classmate`).
+Public pages for the ClassMate apps, served by GitHub Pages:
+<https://tony11-dot.github.io/classmate-legal/>
 
-Lives in a separate public repo because GitHub Pages doesn't host
-private repos on the free plan.
+- `privacy.html` · `terms.html` · `accessibility.html` · `delete-account.html`
+- `index.html` — landing page linking all four
 
-**Live URLs (once GitHub Pages is enabled in Settings → Pages → Branch: main / root):**
+**This repo is the single source of truth.** The marketing site
+(classmateapp.org/privacy.html etc.) only forwards here.
 
-- Privacy Policy: <https://tony11-dot.github.io/classmate-legal/privacy.html>
-- Terms of Use: <https://tony11-dot.github.io/classmate-legal/terms.html>
+## Editing
 
-To update: edit the HTML files in the main classmate repo at
-`docs/legal/`, then mirror them here and push.
+Each page shares `site.css` (styles, light + dark) and `site.js` (builds the
+"On this page" list from the `<h2>` headings). Edit the text between
+`<article>` and `</article>` directly — headings, lists and paragraphs are
+styled automatically. Inter is self-hosted in `fonts/` (SIL OFL 1.1).
+
+Contact address on every page: support@classmateapp.org.
